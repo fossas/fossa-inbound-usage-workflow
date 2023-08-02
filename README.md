@@ -25,6 +25,7 @@ These are steps that an organization's engineering team must take, should they r
 This example shows how to scan `optimizely` for inbound use.
 
 - [ ] In the GitHub UI, create a test repository called `inbound-usage-jira-20231`.
+  - [ ] Or clone this repository and skip some steps.
 - [ ] Add a dummy README describing the purpose of the project.
 - [ ] Clone the project.
 - [ ] Install Go.
@@ -36,6 +37,7 @@ This example shows how to scan `optimizely` for inbound use.
   - [ ] Ensure `inbound-usage` label exists. If not, contact your OSPO lead (they should be admins in FOSSA).
   - [ ] Grab your FOSSA access token.
 - [ ] Run`fossa analze --label inbound-usage --fossa-api-key $FOSSA_API_KEY`
+  - [ ] Feel free to use the `project flag` to supply a different project name.
 - [ ] Visit the FOSSA Report Link that is generated in `stderr` and wait for the scan to complete.
 - [ ] Review results with your OSPO.
 
