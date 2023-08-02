@@ -21,7 +21,7 @@ These are steps that an organization's engineering team must take, should they r
   - Make sure you have your [API token](https://docs.fossa.com/docs/api-reference).
   - Make sure an "inbound usage" [label](https://docs.fossa.com/docs/projects-ui-whats-new#labels) exists in FOSSA.
      
-### Go Example
+### Go example
 This example shows how to scan `optimizely` for inbound use.
 
 - [ ] In the GitHub UI, create a test repository called `inbound-usage-jira-20231`.
