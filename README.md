@@ -18,7 +18,7 @@ Here are the following steps to complete the process with your OSPO lead:
   - Make sure you have your [API token](https://docs.fossa.com/docs/api-reference).
   - Make sure an "inbound usage" [label](https://docs.fossa.com/docs/projects-ui-whats-new#labels) exists in FOSSA.
      
-### Example
+### Go Example
 This example shows how to scan `optimizely` for inbound use.
 
 - [ ] In the GitHub UI, create a test repository called `inbound-usage-jira-20231`.
