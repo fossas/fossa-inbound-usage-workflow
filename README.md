@@ -4,6 +4,9 @@
 These are the recommended steps in how to use FOSSA for the approving/disapproving a package for inbound usage. FOSSA does _NOT_ recommend scanning the OSS libraries as actual projects. The intention here is that source code is scanned for OSS licenses, so packages for inbound usage should be scanned the same way as you would scan your projects.
 Here are the following steps to complete the process with your OSPO lead:
 
+### Intended audience
+These are steps that an organization's engineering team must take, should they request inbound use for particular packages. OSPO must be aware of these steps and integrate them to make the inbound usage workflow easier. It's not required of the OSPO to fulfill these steps on behalf of the requester, who may know more about the nature of using the OSS package itself. Therefore, the following recommended steps are meant for engineers/developers to go through.
+
 ### Recommended steps
 - [ ] Create a new test repository, namely “inbound-usage-[ticketing-system]-[ticket-number]”.
   - For example: `inbound-usage-jira-1234`. 
