@@ -19,3 +19,6 @@ Here are the following steps to complete the process with your OSPO lead:
 
 ### Support
 If you were brought here by your OSPO lead and/or from your FOSSA Customer success team, please reach out to them for feedback/and questions.
+
+### FAQ
+See our [wiki](https://github.com/fossas/fossa-inbound-usage-workflow/wiki/FAQ) page for self-help.
