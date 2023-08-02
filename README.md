@@ -40,7 +40,7 @@ This example shows how to scan `optimizely` for inbound use.
 - [ ] Review results with your OSPO.
 
 ### Support
-If you were brought here by your OSPO lead and/or from your FOSSA Customer success team, please reach out to them for feedback/and questions.
+If you were brought here by your OSPO lead and/or from your FOSSA Customer Success team (or any other cool folks at FOSSA), please reach out to them for feedback/and questions.
 
 ### FAQ
 See our [wiki](https://github.com/fossas/fossa-inbound-usage-workflow/wiki/FAQ) page for self-help.
