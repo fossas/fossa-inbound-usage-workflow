@@ -15,7 +15,26 @@ Here are the following steps to complete the process with your OSPO lead:
 - [ ] Look at FOSSA’s strategies for more information: https://github.com/fossas/fossa-cli/tree/master/docs/references/strategies
 - [ ] Run a FOSSA scan on this test project
   - Use the FOSSA CLI in this way: “fossa analyze --label inbound-usage”
+  - Make sure you have your [API token](https://docs.fossa.com/docs/api-reference).
   - Make sure an "inbound usage" [label](https://docs.fossa.com/docs/projects-ui-whats-new#labels) exists in FOSSA.
+     
+### Example
+This example shows how to scan `optimizely` for inbound use.
+
+- [ ] In the GitHub UI, create a test repository called `inbound-usage-jira-20231`.
+- [ ] Add a dummy README describing the purpose of the project.
+- [ ] Clone the project.
+- [ ] Install Go.
+- [ ] `cd` to cloned project.
+- [ ] Run `go mod init fossa-inbound-usage`
+- [ ] Run `got get github.com/dusan-dragon/terraform-provider-optimizely`
+- [ ] Install FOSSA CLI.
+- [ ] Login to FOSSA.
+  - [ ] Ensure `inbound-usage` label exists. If not, contact your OSPO lead (they should be admins in FOSSA).
+  - [ ] Grab your FOSSA access token.
+- [ ] Run`fossa analze --label inbound-usage --fossa-api-key $FOSSA_API_KEY`
+- [ ] Visit the FOSSA Report Link that is generated in `stderr` and wait for the scan to complete.
+- [ ] Review results with your OSPO.
 
 ### Support
 If you were brought here by your OSPO lead and/or from your FOSSA Customer success team, please reach out to them for feedback/and questions.
