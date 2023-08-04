@@ -31,7 +31,7 @@ This example shows how to scan `optimizely` for inbound use.
 - [ ] Install Go.
 - [ ] `cd` to cloned project.
 - [ ] Run `go mod init fossa-inbound-usage`
-- [ ] Run `got get github.com/dusan-dragon/terraform-provider-optimizely`
+- [ ] Run `go get github.com/dusan-dragon/terraform-provider-optimizely`
 - [ ] Install FOSSA CLI.
 - [ ] Login to FOSSA.
   - [ ] Ensure `inbound-usage` label exists. If not, contact your OSPO lead (they should be admins in FOSSA).
