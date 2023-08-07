@@ -36,7 +36,7 @@ This example shows how to scan `optimizely` for inbound use.
 - [ ] Login to FOSSA.
   - [ ] Ensure `inbound-usage` label exists. If not, contact your OSPO lead (they should be admins in FOSSA).
   - [ ] Grab your FOSSA access token.
-- [ ] Run`fossa analze --label inbound-usage --fossa-api-key $FOSSA_API_KEY`
+- [ ] Run`fossa analyze --project-label inbound-usage --fossa-api-key $FOSSA_API_KEY`
   - [ ] Feel free to use the `project` to supply a different project name.
 - [ ] Visit the FOSSA Report Link that is generated in `stderr` and wait for the scan to complete.
 - [ ] Review results with your OSPO.
