@@ -17,7 +17,7 @@ These are steps that an organization's engineering team must take, should they r
   - If you are wanting to use a maven dependency, add it to your pom.xml. 
 - [ ] Look at FOSSA’s strategies for more information: https://github.com/fossas/fossa-cli/tree/master/docs/references/strategies
 - [ ] Run a FOSSA scan on this test project
-  - Use the FOSSA CLI in this way: “fossa analyze --label inbound-usage”
+  - Use the FOSSA CLI in this way: `fossa analyze --project-label inbound-usage`
   - Make sure you have your [API token](https://docs.fossa.com/docs/api-reference).
   - Make sure an "inbound usage" [label](https://docs.fossa.com/docs/projects-ui-whats-new#labels) exists in FOSSA.
      
